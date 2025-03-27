@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+code {
+    border: 2px solid rgb(174, 174, 174);
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+code > b{
+    background-color: rgb(247, 247, 23);
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 3px 0;
+}
+
+
+.openingTag{
+    background-color: #65dfdf;
+    padding: 3px 5px;
+    border-radius: 10px;
+    color: #393939;
+}
+
+.closeTag{
+    background-color: #65dfdf;
+    padding: 3px 5px;
+    color: #393939;
+    border-radius: 10px;
+}
+
+.contentElement{
+    background-color: red;
+    padding: 3px 5px;
+    margin: 5px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.clssFlexClm{
+    display: flex;
+    flex-direction: column;
+}
+
+.elementHtml{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.elementHtml > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.codeElmH{
+    border-left: 5px solid rgb(149, 73, 220);
+    background-color: rgb(177, 138, 198);
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.codeElmH > .box{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.boxAux1{
+    background-color: #65dfdf;
+}
+
+.boxAux2{
+    background-color: red;
+}
+
+.boxAux3{
+    background-color: #65dfdf;
+}
+
+.boxAux4{
+    background-color: yellow;
+}
